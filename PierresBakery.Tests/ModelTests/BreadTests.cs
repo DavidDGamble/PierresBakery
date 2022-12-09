@@ -21,5 +21,13 @@ namespace PierresBakery.Tests
       Bread testBread = new Bread(5);
       Assert.AreEqual(expected, testBread.GetBreadTotal());
     }
+
+    [TestMethod]
+    public void GetTotalCost_ReturnsTotalCost_Int()
+    {
+      int expected = 0;
+      Bread testBread = new Bread(5);
+      Assert.AreEqual(expected, testBread.GetTotalCost());
+    }
   }
 }
