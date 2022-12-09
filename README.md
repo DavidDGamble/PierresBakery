@@ -2,33 +2,28 @@
 
 #### By: _**David Gamble**_
 
-<!-- EDIT THIS!!! -->
-#### _{Brief description of application}_
+#### _This is a console app that allows users to place an order for Pierre's Bakery and see the total cost._
 
 ## Technologies Used
 
 * _C#_
 * _MS Tests_
 
-<!-- EDIT THIS!!! -->
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a console app that allows users to place an order for Pierre's Bakery. The user enters how many loaves of bread and pastries they would like to purchase and the app will return the total cost._
 
 ## Setup/Installation Requirements
 
-<!-- EDIT THIS!!! -->
-* _Clone the repository to your desktop https://github.com/DavidDGamble/NumbersToWords.git_
-* _Navigate to the NumbersToWords repository in the root NumbersToWords repository._
+* _Clone the repository to your desktop https://github.com/DavidDGamble/PierresBakery.git_
+* _Navigate to the PierresBakery repository in the root PierresBakery repository._
 * _run [$ dotnet run] in terminal._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_To check the tests navigate to the PierresBakery.Tests repository in the root PierresBakery repository then run $ dotnet restore and $ dotnet test_
 
-<!-- EDIT THIS!!! -->
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs._
 
 ## License
 
