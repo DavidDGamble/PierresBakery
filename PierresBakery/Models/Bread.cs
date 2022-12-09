@@ -11,6 +11,6 @@ namespace PierresBakery.Models
       _totalCost = 0;
     }
 
-    public int GetBreadTotal() { return 1; }
+    public int GetBreadTotal() { return BreadTotal; }
   }
 }
