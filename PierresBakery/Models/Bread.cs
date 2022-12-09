@@ -8,6 +8,9 @@ namespace PierresBakery.Models
     public Bread(int breadTotal)
     {
       BreadTotal = breadTotal;
+      _totalCost = 0;
     }
+
+    public int GetBreadTotal() { return 1; }
   }
 }
