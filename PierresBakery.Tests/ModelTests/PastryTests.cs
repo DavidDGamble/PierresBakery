@@ -56,5 +56,14 @@ namespace PierresBakery.Tests
       testPastry.CalcTotal();
       Assert.AreEqual(expected, testPastry.GetTotalCost());
     }
+
+    [TestMethod]
+    public void CalcTotal_CalculatesTotalCostOf6Pastiries_Int()
+    {
+      int expected = 10;
+      Pastry testPastry = new Pastry(6);
+      testPastry.CalcTotal();
+      Assert.AreEqual(expected, testPastry.GetTotalCost());
+    }
   }
 }
