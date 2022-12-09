@@ -3,7 +3,7 @@ namespace PierresBakery.Models
   public class Bread
   {
     public int BreadTotal { get; set; }
-    private int _totalCost { get; }
+    private int _totalCost { get; set; }
 
     public Bread(int breadTotal)
     {
@@ -16,7 +16,7 @@ namespace PierresBakery.Models
 
     public void CalcTotal()
     {
-      
+      _totalCost = BreadTotal * 5;
     }
   }
 }
