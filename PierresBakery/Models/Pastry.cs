@@ -2,7 +2,7 @@ namespace PierresBakery.Models
 {
   public class Pastry
   {
-    public int PastryTotal { get; set; }
+    public int PastryTotal;
     private int _totalCost { get; set; }
 
     public Pastry(int pastryTotal)
