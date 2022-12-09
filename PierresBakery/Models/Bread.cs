@@ -5,6 +5,9 @@ namespace PierresBakery.Models
     public int BreadTotal { get; set; }
     private int _totalCost { get; }
 
-    
+    public Bread(int breadTotal)
+    {
+      BreadTotal = breadTotal;
+    }
   }
 }
