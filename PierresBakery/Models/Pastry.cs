@@ -17,6 +17,7 @@ namespace PierresBakery.Models
     public void CalcTotal()
     {
       _totalCost = PastryTotal * 2;
+      
     }
   }
 }
