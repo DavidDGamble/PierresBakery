@@ -13,5 +13,10 @@ namespace PierresBakery.Models
 
     public int GetBreadTotal() { return BreadTotal; }
     public int GetTotalCost() { return _totalCost; }
+
+    public void CalcTotal()
+    {
+      
+    }
   }
 }
