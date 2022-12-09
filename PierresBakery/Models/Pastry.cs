@@ -17,7 +17,11 @@ namespace PierresBakery.Models
     public void CalcTotal()
     {
       _totalCost = PastryTotal * 2;
-      
+      if (PastryTotal > 2)
+      {
+        int freeNum = PastryTotal / 3;
+        _totalCost -= freeNum;
+      }
     }
   }
 }
