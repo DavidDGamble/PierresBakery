@@ -2,24 +2,23 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    private int _breadTotal; 
-    private int _totalCost { get; set; }
+    public int BreadTotal { get; set; }
+    private int _totalCost; 
 
     public Bread(int breadTotal)
     {
-      _breadTotal = breadTotal;
+      BreadTotal = breadTotal;
       _totalCost = 0;
     }
 
-    public int GetBreadTotal() { return _breadTotal; }
     public int GetTotalCost() { return _totalCost; }
 
     public void CalcTotal()
     {
-      _totalCost = _breadTotal * 5;
-      if (_breadTotal > 2)
+      _totalCost = BreadTotal * 5;
+      if (BreadTotal > 2)
       {
-        int freeNum = _breadTotal / 3;
+        int freeNum = BreadTotal / 3;
         _totalCost -= freeNum * 5;
       }
     }

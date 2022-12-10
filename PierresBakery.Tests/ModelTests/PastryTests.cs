@@ -19,7 +19,7 @@ namespace PierresBakery.Tests
     {
       int expected = 5;
       Pastry testPastry = new Pastry(5);
-      Assert.AreEqual(expected, testPastry.GetPastryTotal());
+      Assert.AreEqual(expected, testPastry.PastryTotal);
     }
 
     [TestMethod]
